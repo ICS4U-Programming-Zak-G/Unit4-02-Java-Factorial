@@ -93,7 +93,7 @@ public final class Factorial {
 
     // Function to calculate factorial of a number
     /**
-    * This function reverses a string.
+    * This function calculates the factorial of a number.
     *
     * @param number The number to calculate the factorial of
     * @return The factorial of the number
@@ -103,10 +103,10 @@ public final class Factorial {
     public static int factorial(final int number) {
         // Set base case
         if (number == 0) {
-            // Return string
+            // Return 1
             return 1;
 
-        // Otherwise, reverse string
+        // Otherwise, calculate factorial
         } else {
             // Call function
             return number * factorial(number - 1);
