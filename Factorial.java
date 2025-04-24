@@ -91,7 +91,7 @@ public final class Factorial {
         myWriter.close();
     }
 
-    // Function to reverse string
+    // Function to calculate factorial of a number
     /**
     * This function reverses a string.
     *
